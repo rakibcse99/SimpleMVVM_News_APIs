@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:background="@drawable/black_background"
+        android:ems="10"
+        android:fontFamily="@font/g_bold"
+        android:hint="Search"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="@color/grey"
+        android:textColorHint="@color/grey" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSearchNews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSearch"
+        tools:layout_editor_absoluteX="0dp" />
+</LinearLayout>
