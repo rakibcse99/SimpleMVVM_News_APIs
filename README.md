@@ -4,7 +4,7 @@ NewsApp is a sample news app built using Modern Android Development (Architectur
 
 
 This is a simple news app 🗞️ which uses [NewsAPI](https://newsapi.org/) to fetch top news headlines from the API. This app also includes Room DB you can add a news or delete it from locale storage.
-## Contact : Rakib898907@gmail.com
+## Contact : rakib.cse99@gmail.com
 ## Built With 🛠
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
 - [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - For asynchronous and more..
